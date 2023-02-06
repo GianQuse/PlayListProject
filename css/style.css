@@ -14,3 +14,53 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/* Player */
+.player{
+    min-width: 320px;
+    background-image: linear-gradient(black, gray);
+    border-radius: 1rem;
+    padding: 2rem;
+    color: white;
+    box-shadow: 2px 2px 3px black;
+}
+
+/* Title */
+.title{
+    margin-top: 0px;
+    text-align: center;
+}
+
+/* Cover */
+.cover{
+    width: 128px;
+    height: auto;
+    border-radius: .3rem;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+/* Progress */
+.progress-container{
+    height: .6rem;
+    background-color: lightgray;
+    margin-bottom: 1rem;
+}
+
+.progress{
+    background-color: goldenrod;
+    width: 40%;
+    height: 100%;
+}
+
+/* Controls */
+.controls{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.controls i{
+    32.43
+}
+
+/* Songs */
